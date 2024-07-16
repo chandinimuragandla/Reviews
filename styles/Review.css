@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    width:100%;
+   
+}
+.background{
+    background-image: url(../images/background\ img.png);
+    height: 500px;
+    color:white;
+    background-size: cover;
+ 
+    
+}
+span {
+    color: rgb(255, 94, 0);
+     
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    
+    
+}
+h2{
+   margin-left: 300px;
+   font-size: 30px;
+   margin-top: 50px;
+}
+.body1{
+    display: flex;
+}
+.gadget1{
+    height: 400px;
+    width: 300px;
+    padding: 30px;
+}
+
+.text1 h3{
+    margin-top: 60px;
+    margin-left: 190px;
+    font-size: 25px;
+}
+.text1 h6{
+    font-size: 16px;
+    margin-left: 190px;
+    
+}
+.text1 p{
+    margin-top: 10px;
+    margin-left: 190px;
+    font-size: 20px;
+}
+button{
+    margin-left: 280px;
+    height: 60px;
+    width:180px;
+    background-color: #1a2835;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+hr{
+    margin-top: -50px;
+}
+.body2{
+    display: flex;
+}
+.text2 {
+  margin-left: 30px;  
+}
+.text2 h6{
+    font-size: 16px;
+    margin-top: 30px;
+
+}
+.text2 p{
+    font-size:20px;
+    margin-top: 20px;
+}
+ .body2 button{
+    height: 60px;
+    width:180px;
+    background-color: #1a2835;
+    color: white; 
+    margin-top: 80px;
+}
+.body3{
+    display: flex;
+}
+.body3 button{
+    margin-left: 280px;
+    height: 60px;
+    width:180px;
+    background-color: #1a2835;
+    color: white;
+    margin-top: 60px;
+    font-size: 20px; 
+}
+.TechService1 img{
+  height:400px;
+  width: 400px;
+  margin-top: -80px;
+  margin-left: 30px;
+}
+.body3 h3{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.body3 h6{
+    margin-top:30px;
+    margin-left: 30px;
+    font-size: 16px;
+    
+}
+.body3 p{
+    margin-left: 30px;
+    font-size: 20px;
+}
