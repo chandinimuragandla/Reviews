@@ -64,10 +64,12 @@ button{
     color: white;
     margin-top: 10px;
     font-size: 20px;
+    border-radius: 20px;
 }
 button:hover{
     background-color: white;
     color: black;
+    border-radius: 20px;
 }
 hr{
     margin-top: -50px;
@@ -89,10 +91,16 @@ hr{
 }
  .body2 button{
     height: 60px;
-    width:180px;
+    width:200px;
     background-color: #1a2835;
     color: white; 
     margin-top: 80px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
 }
 .body3{
     display: flex;
@@ -104,7 +112,13 @@ hr{
     background-color: #1a2835;
     color: white;
     margin-top: 60px;
-    font-size: 20px; 
+    font-size: 20px;
+    border-radius: 20px; 
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
 }
 .TechService1 img{
   height:400px;
@@ -126,3 +140,35 @@ hr{
     margin-left: 30px;
     font-size: 20px;
 }
+.gadget1 img{
+    height: 300px;
+    width: 400px;
+    transition: all 0.5s ease-out;
+}
+.gadget1 img:hover{
+ transform: scale(1.1);
+ border-radius: 50%;
+}
+ .TechServices  img{
+    margin-left: 200px;
+    margin-top: -90px;
+    height: 400px;
+    width: 450px;
+    transition: all 0.5s ease-out;
+    
+ } 
+ .TechServices img:hover{
+    transform: scale(1.1);
+    
+ } 
+ .TechService1  img{
+    margin-left: 100px;
+    margin-top: -50px;
+    border-radius: 100px;
+    transition: all 0.5s ease-out;
+ } 
+ .TechService1 img:hover{
+    transform: scale(1.1);
+    border-radius: 50%;
+ } 
+

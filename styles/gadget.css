@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 .background img{
-    height:600px;
+    height:500px;
     width: 100%;
     background-size: cover;
+    transition: all 0.5s ease;
    
 }
+.background img:hover{
+transform: scale(1.1);
+
+
+}
+
 .background h1{
     margin-top: -350px;
     margin-left: 550px;
@@ -178,3 +185,238 @@ color: blue;
     background-color: #1a2835;
 }
 
+
+
+
+.body4{
+    height: 800px;
+    width:100px;
+    margin-top: -250px;
+ }
+ .main2{
+    display: flex;
+    margin: 40px;
+ }
+ .box5{
+    margin: 30px;
+   margin-top: 10px;
+   
+ }
+ .box6{
+    margin-left: 150px;
+   
+ }
+  .box5 p{
+    margin-top: 20px;
+   font-size: 20px;
+  }
+  .box5 p:hover{
+    color: rgb(199, 196, 25);
+  }
+.box5 h6{
+ margin-top: 20px;
+ font-size: 16px;
+ margin: 10px;
+ margin-left: -3px;
+}
+.box5 h6:hover{
+color: blue;
+}
+.box5 h2{
+    color:gray;
+}
+.box5 h2:hover{
+    color:red;
+}
+
+.box6 p{
+    margin-top: 20px;
+   font-size: 20px;
+  }
+  .box6 p:hover{
+    color: rgb(199, 196, 25);
+  }
+.box6 h6{
+ margin-top: 20px;
+ font-size: 16px;
+ margin: 10px;
+ margin-left: -3px;
+}
+.box6 h6:hover{
+color: blue;
+}
+.box6 h2{
+    color:gray;
+}
+.box6 h2:hover{
+    color:red;
+}
+.btns1  button{
+    height:40px;
+    width:100px;
+    margin-top: 30px;
+    color:white;
+    background-color: #1a2835;
+    border-radius: 5px;
+}
+.btns1  button{
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+    color:white;
+    background-color: #1a2835;
+}
+
+.body5{
+    height: 800px;
+    width:100px;
+    margin-top: -250px;
+ }
+ .main3{
+    display: flex;
+    margin: 40px;
+ }
+ .box7{
+    margin: 30px;
+   margin-top: 10px;
+   
+ }
+ .box8{
+    margin-left: 150px;
+   
+ }
+  .box7 p{
+    margin-top: 20px;
+   font-size: 20px;
+  }
+  .box7 p:hover{
+    color: rgb(199, 196, 25);
+  }
+.box7 h6{
+ margin-top: 20px;
+ font-size: 16px;
+ margin: 10px;
+ margin-left: -3px;
+}
+.box7 h6:hover{
+color: blue;
+}
+.box7 h2{
+    color:gray;
+}
+.box7 h2:hover{
+    color:red;
+}
+
+.box8 p{
+    margin-top: 20px;
+   font-size: 20px;
+  }
+  .box8 p:hover{
+    color: rgb(199, 196, 25);
+  }
+.box8 h6{
+ margin-top: 20px;
+ font-size: 16px;
+ margin: 10px;
+ margin-left: -3px;
+}
+.box8 h6:hover{
+color: blue;
+}
+.box8 h2{
+    color:gray;
+}
+.box8 h2:hover{
+    color:red;
+}
+.btns1  button{
+    height:40px;
+    width:100px;
+    margin-top: 30px;
+    color:white;
+    background-color: #1a2835;
+    border-radius: 5px;
+}
+.btns1  button{
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+    color:white;
+    background-color: #1a2835;
+}
+
+.box1 img{
+    border-radius: 10px;
+    transition: all 0.5s ease ;
+}
+.box1 img:hover{
+   transform: rotateZ(1.1); 
+   border-top-left-radius: 150px;
+   border-bottom-right-radius: 150px;
+}
+.box2 img{
+    border-radius: 10px;
+    transition: all 0.5s ease ;
+}
+.box2 img:hover{
+   transform: rotateZ(1.1); 
+   border-top-right-radius: 150px;
+   border-bottom-left-radius: 150px;
+}
+
+.box3 img{
+    border-radius: 10px;
+    transition: all 0.5s ease ;
+}
+.box3 img:hover{
+   transform: rotateZ(1.1); 
+   border-top-right-radius: 150px;
+   border-bottom-left-radius: 150px;
+}
+.box4 img{
+    border-radius: 10px;
+    transition: all 0.5s ease ;
+}
+.box4 img:hover{
+   transform: rotateZ(1.1); 
+   border-top-left-radius: 150px;
+   border-bottom-right-radius: 150px;
+}
+
+.box5 img{
+    border-radius: 10px;
+    transition: all 0.5s ease ;
+}
+.box5 img:hover{
+   transform: rotateZ(1.1); 
+   border-top-right-radius: 150px;
+   border-bottom-left-radius: 150px;
+}
+.box6 img{
+    border-radius: 10px;
+    transition: all 0.5s ease ;
+}
+.box6 img:hover{
+   transform: rotateZ(1.1); 
+   border-top-left-radius: 150px;
+   border-bottom-right-radius: 150px;
+}
+.box7 img{
+    border-radius: 10px;
+    transition: all 0.5s ease ;
+}
+.box7 img:hover{
+   transform: rotateZ(1.1); 
+   border-top-right-radius: 150px;
+   border-bottom-left-radius: 150px;
+}
+.box8 img{
+    border-radius: 10px;
+    transition: all 0.5s ease ;
+}
+.box8 img:hover{
+   transform: rotateZ(1.1); 
+   border-top-left-radius: 150px;
+   border-bottom-right-radius: 150px;
+}
